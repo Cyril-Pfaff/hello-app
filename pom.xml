@@ -33,7 +33,8 @@
 	    <configuration>
 				<archive>
           <manifest>
-            <mainClass>${fully.qualified.main.class}</mainClass>
+          	<addClasspath>true</addClasspath>
+            <mainClass>fr.cylian.hello.App</mainClass>
           </manifest>
         </archive>
 	      <descriptorRefs>
