@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        Outil.hello( "World from API (20121206)" );
+        Outil.hello( "World from APP/API (app:20121206)" );
     }
 }
